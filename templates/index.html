@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Beverage Pricing</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+        <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    </head>
+<body>
+    <h1>Beverage Pricing Calculator</h1>
+    <form id="pricing-form">
+        <label for="customer">Customer ID:</label>
+        <select id="customer">
+            <option value="1">Customer 1</option>
+            <option value="2">Customer 2</option>
+            <option value="3">Customer 3</option>
+            <option value="4">Customer 4</option>
+            <option value="5">Customer 5</option>
+        </select><br><br>
+
+        <label for="product-a">Quantity of Product A:</label>
+        <input type="number" id="product-a" min="0"><br><br>
+
+        <label for="product-b">Quantity of Product B:</label>
+        <input type="number" id="product-b" min="0"><br><br>
+
+        <label for="product-c">Quantity of Product C:</label>
+        <input type="number" id="product-c" min="0"><br><br>
+
+        <label for="product-d">Quantity of Product D:</label>
+        <input type="number" id="product-d" min="0"><br><br>
+
+        <button type="submit">Calculate</button>
+    </form>
+
+    <div id="results-container">
+        <!-- Results will be displayed here -->
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
