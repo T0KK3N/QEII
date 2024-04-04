@@ -1,4 +1,4 @@
-# In this file I have outlined the test cases for this specific project:
+# In this file I have outlined 7 test cases for this specific project:
 
 ## Test Case ID 1: 
 QEII001
