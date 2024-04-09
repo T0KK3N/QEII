@@ -36,8 +36,8 @@ Folder "test_script" - test_negative_numbers.py (Selenium)
 
 ## Running The App:
 1. You can open the QEII folder in VsCode. Before running the app, be sure to open a terminal and run pip install Flask to install the Flask framework.
-2. Within the terminal, run the command py app.py or python app.py. It will run on http://127.0.0.1:5000
-2. Once the app is running, you can open another terminal and move to the script folder with cd test_script and the run the command py test_negative_numbers.py or if you are inside the script, you can test it with the help of Code Runner by using the top right play button, use the dropdown and you will see the option "Run Python File in Dedicated Terminal".  
+2. Within the terminal inside the test script folder, run the command "py test_negative_numbers.py", it will load the app.py and test the script. If you just want to run the app then run "py app.py" in the QEII folder. It will run on http://127.0.0.1:5000
+
 
 ## Contact Information:
 If you have any questions feel free to contact me at danielmora414@gmail.com 
