@@ -19,7 +19,7 @@ Test Cases:
 testcases.md (Contains 7 test cases)
 
 Test Script:
-Folder "test_script" - test_negative_numbers.py (Selenium)
+test_negative_numbers.py (Selenium)
 
 ## Technologies used:
 1. Python 3.12.2
@@ -36,7 +36,7 @@ Folder "test_script" - test_negative_numbers.py (Selenium)
 
 ## Running The App:
 1. You can open the QEII folder in VsCode. Before running the app, be sure to open a terminal and run pip install Flask to install the Flask framework.
-2. Within the terminal inside the test script folder, run the command "py test_negative_numbers.py", it will load the app.py and test the script. If you just want to run the app then run "py app.py" in the QEII folder. It will run on http://127.0.0.1:5000
+2. Within the terminal inside the folder, run the command "py test_negative_numbers.py", it will load the app.py and test the script. If you just want to run the app then run "py app.py". It will run on http://127.0.0.1:5000
 
 
 ## Contact Information:
