@@ -1,11 +1,24 @@
 import unittest
+import subprocess
+import threading
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 
 class TestNegativeNumbers(unittest.TestCase):
     def setUp(self):
+        # Start the application in a separate thread
+        self.app_thread = threading.Thread(target=self.start_application)
+        self.app_thread.start()
+        
+        # Wait for the application to start 
+        time.sleep(5)
+        
+        # Initialize the WebDriver
         self.driver = webdriver.Chrome()
+
+    def start_application(self):
+        subprocess.run(["python", "app.py"])  
 
     def test_negative_numbers(self):
         driver = self.driver
